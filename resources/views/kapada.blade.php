@@ -1,9 +1,11 @@
 @extends('layouts.main')
 @section('main-section')
     
+@push('title')
+<title>KapDa paSaL || e-commerce website</title>
+    @endpush
 
-<h1 class="text-center">
-    welcome  to my website</h1>
+
 
     <div class="categories">
         <div class="small-container">
@@ -92,7 +94,7 @@
           <div class="row">
               <div class="col-4">
                   <img src="images/paras.jpg"height="300px"width="800px" >
-                  <h4>Paras khadk's jersey</h4>
+                  <h4>Paras khadka's jersey</h4>
                   <p>Father of nepali cricket</p>
                   <div class="rating">
                       <i class="fa fa-star" ></i>
